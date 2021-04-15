@@ -1,0 +1,83 @@
+:root {
+  --dak: #272a31;
+  --orng: #ec5242;
+  --lit: #d3d3d3;
+}
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("fonts/Cocogoose_trial.woff") format("woff"), url("fonts/Cocogoose_trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dak);
+}
+
+/* header section */
+
+
+.cont {
+  padding-left: 15px;
+}
+.nav-media {
+  background-color: var(--dak);
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.medias {
+  margin: 0;
+}
+
+.medias li {
+  padding: 0.4rem 1rem;
+}
+
+.container .medias {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+
+.nav-a {
+  color: var(--lit);
+}
+
+.nav-a:hover {
+  color: var(--orng);
+  text-decoration: none;
+}
+
+.nav-cont {
+  margin-top: 0;
+  background: #fff;
+}
+
+.main-logo {
+  height: 65px;
+  width: 160px;
+}
+
+#nv-element:hover {
+  color: red
+}
+
+.nav-button {
+  border-width: 0.26rem;
+  border-color: var(--orng);
+}
+
