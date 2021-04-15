@@ -96,3 +96,12 @@ a {
 .contact {
   text-align: center;
 }
+
+.logo-header {
+  text-align: center;
+}
+
+.logopara {
+  max-width: 400px;
+  margin: auto;
+}
