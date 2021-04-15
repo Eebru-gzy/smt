@@ -81,3 +81,18 @@ a {
   border-color: var(--orng);
 }
 
+.header1 {
+  color: var(--orng);
+  max-width: 500px;
+  margin: auto;
+}
+
+.about {
+  border: 1px solid gray;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  text-align: center;
+}
