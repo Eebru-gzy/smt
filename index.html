@@ -1,115 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-    <meta property="og:title" content="KAS & GREEN Contractors" />
-    <meta property="og:description" content="A capstone project at Microvere, themed for a Real Estate  Contractor Agency " />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/fdccd4f74a.js" crossorigin="anonymous" ></script>
-  <title>KAS & GREEN Contractors</title>
-</head>
-<body>
-  <header>
-    <nav class="nav-media">
-      <div class="container cont"> 
-        <ul class="medias">
-          <li>
-            <a href="#" class="nav-a"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li class="social-items">
-            <a href="#" class="nav-a"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="social-items">
-            <a href="#" class="nav-a">English</a>
-          </li>
-          <li class="social-items">
-            <a href="#" class="nav-a">My Page</a>
-          </li>
-          <li class="social-items">
-            <a href="#" class="nav-a">Signin</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="nav-cont">
-      <nav class=" navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars font-weight-bolder menu"></i>
-          </button>
-          <div class="real-nav collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand mr-auto " href="#">
-              <img src="img/log.jpeg" class="img-fluid main-logo" alt="company-logo" />
-            </a>
-            <ul class="navbar-nav mt-1 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link mr-4 " id="nv-element" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-4" id="nv-element" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-4" id="nv-element" href="tickets.html">Tickets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-4" id="nv-element" href="#">Sponsor</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-4" id="nv-element" href="#">News</a>
-              </li>
-            </ul>
-            <button type="button" class="btn mr-3 btn-outline-danger rounded-0 nav-button"> WDP Event </button>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  
-  <main>
-    <section class="showcase">
-      <div class="container pt-2 pb-4">
-        <h2 class="showcase-title-one">Real Estate Convergence 2021</h2>
-        <h1 class="showcase-title-two"> PUT YOUR HOUSE <br />IN ORDER: <br />A SEMINAL FOR THE FUTURE</h1>
-        <div class="showcase-child p-3 w-50 mt-4">
-          <span>  A life-changing opportunity targeted at educating the youths on building websites. </span>
-        </div>
-        <div class="venue-time mt-4">
-          <h1 class="showcase-date font-weight-bolder">2022.05.11(WED) ~ 13(FRI)</h1>
-          <p class="showcase-venue">
-            @ 20, Fola Osibo Crecsent, Lekki Phase1 Lagos 
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
+	<head>
+		<meta charset="UTF-8" />
+		<meta property="og:title" content="KAS & GREEN Contractors" />
+		<meta
+			property="og:description"
+			content="A capstone project at Microvere, themed for a Real Estate  Contractor Agency "
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/fdccd4f74a.js"
+			crossorigin="anonymous"
+		></script>
+		<title>KAS & GREEN Contractors</title>
+	</head>
+	<body>
+		<header>
+			<nav class="nav-media">
+				<div class="container cont">
+					<ul class="medias">
+						<li>
+							<a href="#" class="nav-a"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="social-items">
+							<a href="#" class="nav-a"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="social-items">
+							<a href="#" class="nav-a">English</a>
+						</li>
+						<li class="social-items">
+							<a href="#" class="nav-a">My Page</a>
+						</li>
+						<li class="social-items">
+							<a href="#" class="nav-a">Signin</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="nav-cont">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarTogglerDemo01"
+							aria-controls="navbarTogglerDemo01"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<i class="fas fa-bars font-weight-bolder menu"></i>
+						</button>
+						<div
+							class="real-nav collapse navbar-collapse"
+							id="navbarTogglerDemo01"
+						>
+							<a class="navbar-brand mr-auto" href="#">
+								<img
+									src="img/log.jpeg"
+									class="img-fluid main-logo"
+									alt="company-logo"
+								/>
+							</a>
+							<ul class="navbar-nav mt-1 mt-lg-0">
+								<li class="nav-item">
+									<a class="nav-link mr-4" id="nv-element" href="index.html"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-4" id="nv-element" href="about.html"
+										>About</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-4" id="nv-element" href="tickets.html"
+										>Tickets</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-4" id="nv-element" href="#">Sponsor</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-4" id="nv-element" href="#">News</a>
+								</li>
+							</ul>
+							<button
+								type="button"
+								class="btn mr-3 btn-outline-danger rounded-0 nav-button"
+							>
+								WDP Event
+							</button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
 
+		<main>
+			<section class="showcase">
+				<div class="container pt-2 pb-4">
+					<h2 class="showcase-title-one">Real Estate Convergence 2021</h2>
+					<h1 class="showcase-title-two">
+						PUT YOUR HOUSE <br />IN ORDER: <br />A SEMINAL FOR THE FUTURE
+					</h1>
+					<div class="showcase-child p-3 w-50 mt-4">
+						<span>
+							A life-changing opportunity targeted at educating the youths on
+							building websites.
+						</span>
+					</div>
+					<div class="venue-time mt-4">
+						<h1 class="showcase-date font-weight-bolder">
+							2022.05.11(WED) ~ 13(FRI)
+						</h1>
+						<p class="showcase-venue">
+							@ 7, Oriyomi Street, Computer Village, Ikeja, Lagos
+						</p>
+					</div>
+				</div>
+			</section>
 
-  <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-</body>
+			<section class="main-program bg-white">
+				<h3 class="text-white pt-4">Main Program</h3>
+				<div class="line-main"></div>
+				<div class="container">
+					<div class="event-container p-2">
+						<article class="main-event">
+							<div class="col-2 col-md-12">
+								<img
+									src="img/icons8-lecturer-100.png"
+									alt="start-logo"
+									class="icn"
+								/>
+							</div>
+							<div class="col-3 col-md-12">
+								<h2 class="evernt-txt font-weight-bolder">Getting Started</h2>
+							</div>
+							<div class="col-7 col-md-12">
+								<small class="p-details font-weight-bolder"
+									>Experience a simple, yet comprehensive approach to getting
+									started with Web Design</small
+								>
+							</div>
+						</article>
+
+						<article class="main-event">
+							<div class="col-2 col-md-12">
+								<img
+									src="img/icons8-lecturer-100.png"
+									alt="start-logo"
+									class="icn"
+								/>
+							</div>
+							<div class="col-3 col-md-12">
+								<h2 class="evernt-txt font-weight-bolder">Getting Started</h2>
+							</div>
+							<div class="col-7 col-md-12">
+								<small class="p-details font-weight-bolder"
+									>Experience a simple, yet comprehensive approach to getting
+									started with Web Design</small
+								>
+							</div>
+						</article>
+
+						<article class="main-event">
+							<div class="col-2 col-md-12">
+								<img
+									src="img/icons8-lecturer-100.png"
+									alt="start-logo"
+									class="icn"
+								/>
+							</div>
+							<div class="col-3 col-md-12">
+								<h2 class="evernt-txt font-weight-bolder">Getting Started</h2>
+							</div>
+							<div class="col-7 col-md-12">
+								<small class="p-details font-weight-bolder"
+									>Experience a simple, yet comprehensive approach to getting
+									started with Web Design</small
+								>
+							</div>
+						</article>
+
+						<article class="main-event">
+							<div class="col-2 col-md-12">
+								<img
+									src="img/icons8-lecturer-100.png"
+									alt="start-logo"
+									class="icn"
+								/>
+							</div>
+							<div class="col-3 col-md-12">
+								<h2 class="evernt-txt font-weight-bolder">Getting Started</h2>
+							</div>
+							<div class="col-7 col-md-12">
+								<small class="p-details font-weight-bolder"
+									>Experience a simple, yet comprehensive approach to getting
+									started with Web Design</small
+								>
+							</div>
+						</article>
+
+						<article class="main-event">
+							<div class="col-2 col-md-12">
+								<img
+									src="img/icons8-lecturer-100.png"
+									alt="start-logo"
+									class="icn"
+								/>
+							</div>
+							<div class="col-3 col-md-12">
+								<h2 class="evernt-txt font-weight-bolder">Getting Started</h2>
+							</div>
+							<div class="col-7 col-md-12">
+								<small class="p-details font-weight-bolder"
+									>Experience a simple, yet comprehensive approach to getting
+									started with Web Design</small
+								>
+							</div>
+						</article>
+					</div>
+					<p class="whole-under text-white pb-5">
+						<a href="#" class="text-uppercase text-decoration-none text-white"
+							>see the whole program</a
+						>
+					</p>
+					<button
+						type="button"
+						class="btn mb-5 rounded-0 d-xs-block d-md-none join-button"
+					>
+						Join WDP Event 2022
+					</button>
+				</div>
+			</section>
+
+			<section class="featured-speakers my-5">
+				<h3 class="text-black text-center font-weight-bold">
+					Featured Speakers
+				</h3>
+				<div class="container my-5">
+					<div class="row mx-2">
+						<article class="col-lg-6 col-sm-12 card border-0">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/andriew.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="bonnie"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>Clayburn Garrett</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Senior Web Developer at Apple</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>He his a Senior Web developer at Apple for over 11
+												years. He his very passionate about educating young
+												programmers who is very committed.</small
+											>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="col-lg-6 col-sm-12 card border-0">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/soros.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="andrew"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>Andrew Krieger</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Founder and CEO of ACME Web Agency</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>He has a founded ACME Web Agency for the past 15 years.
+												He his very passionate about educating young programmers
+												who is very committed.
+											</small>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="col-lg-6 col-sm-12 card border-0 each-featured">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/bruce.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="bruce"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>Jeff Norman</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Senior Software Engineer at Amazon</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>He his a Senior Web developer at Amazon for over 16
+												years. He his very passionate about educating young
+												programmers who is very committed.</small
+											>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="col-lg-6 col-sm-12 card border-0 each-featured">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/jones.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="jones"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>John Williams</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Founder and CEO of Room Design</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>He has a founded Room Design for the past 15 years. He
+												his very passionate about educating young programmers
+												who is very committed.
+											</small>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="col-lg-6 col-sm-12 card border-0 each-featured">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/urs.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="urs"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>Mary Elizabeth</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Senior Software Engineer at Facebook</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>She has been a Software Engineer at Facebook for over
+												15 years. She is so committed to mentor newbies in the
+												industry.
+											</small>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="col-lg-6 col-sm-12 card border-0 each-featured">
+							<div class="row pb-2 mb-3">
+								<div class="col-lg-4 col-md-3 col-3 p-0 img-top">
+									<img
+										src="img/stanley.jpg"
+										class="card-img pt-3 pl-3 pb-3 i-height"
+										alt="stanley"
+									/>
+								</div>
+								<div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+									<div class="card-body m-0 p-0 pl-3">
+										<h2 class="pb-0 mb-0">
+											<a
+												href="#"
+												class="h5 text-decoration-none text-dark font-weight-bolder mb-0"
+												>Sarah Druckenmiller</a
+											>
+										</h2>
+										<i class="display-inline-block text-danger">
+											<small>Tech Recruiter</small>
+										</i>
+										<hr class="speaker-line my-2" />
+										<p class="card-text deep-link text-dark">
+											<small class="text-muted"
+												>She has over 12 years of experience in Recruiting Tech
+												workers.
+											</small>
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="more border p-3 text-center d-md-none d-xs-block">
+						<a href="#">
+							MORE
+							<span class="text-danger display-inline-block pl-2"
+								><i class="fas fa-caret-down"></i
+							></span>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
