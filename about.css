@@ -81,16 +81,33 @@ a {
   border-color: var(--orng);
 }
 
+/* @media only screen and (max-width: 1024px) {
+  .na-button {
+    border-width: 0.2rem;
+    font-size: x-small;
+  }
+
+  .nav-a {
+    font-size: x-small;
+  }
+} */
+
+
 .header1 {
   color: var(--orng);
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
+  font-size: 8px;
 }
 
 .about {
-  border: 1px solid gray;
-  padding: 30px;
-  margin-bottom: 30px;
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: center;
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  margin-left: 120px;
 }
 
 .contact {
@@ -102,8 +119,14 @@ a {
 }
 
 .logopara {
-  max-width: 400px;
+  max-width: 250px;
   margin: auto;
+  text-align: center;
+}
+.event-logo{
+  border: 1px solid var(--dak);
+  width: 50%;
+  margin: 0 auto;
 }
 
 
@@ -111,7 +134,7 @@ a {
   font-size: 12px;
   margin-top: 30px;
 }
-
+/* 
 .event a img {
   width: 300px;
   height: 200px;
@@ -122,4 +145,39 @@ a {
 .event {
   display: flex;
   margin-top: 30px;
+  justify-content: center;
+}
+
+.event a {
+  box-shadow: inset 0 0 0 200px #C33764; 
+} */
+
+
+.event {
+  width: 44%;
+  height: 22vh;
+}
+
+.first-event {
+  background: url('img/Real-estate1.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.second-event {
+  background: url('img/2021_sales.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.about-events {
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342a2;
+}
+
+.footer-logo {
+   margin-bottom: 60px;
+}
+
+.footer-cover{
+  box-shadow: inset 0 0 0 2000px var(--dak);
 }

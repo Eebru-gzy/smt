@@ -123,3 +123,20 @@ box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, .3);
   font-size: x-large;
   color: var(--lit);
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .nav-media {
+    display: none;
+  }
+
+  .main-nav-container {
+    background: url('img/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
+  }
+}
+

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
   <link rel="stylesheet" href="about.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/fdccd4f74a.js" crossorigin="anonymous" ></script>
   <title>About</title>
@@ -15,7 +15,7 @@
   <header>
     <nav class="nav-media">
       <div class="container cont"> 
-        <ul class="medias">
+        <ul class="medias d-md-none">
           <li>
             <a href="#" class="nav-a"><i class="fab fa-facebook"></i></a>
           </li>
@@ -76,57 +76,113 @@
     </div>
   </header>
   <main>
-
-    <div class="container">
-      <div>
-        <div class="header1">
-          <h1 >Let’s Find You A Home You Will Love To Live In!</h1>
-        </div>
+    <section class="showcase">
+      <div class="container">
         <div>
-          <div class="about">
-            <p> At KAS & GREEN Realtors, we are dedicated to enabling our customers with knowledge and information of what acquiring their dream home requires thereby making real estate investment accessible to all persons in a less complicated and secure manner.</p>
+          <div class="header1 pt-5 mt-5">
+            <h1>Kas & Green Realtors Real Estate Expo 2021</h1>
           </div>
-          <div class="contact">
-            <p>Please contact us through Email for further questions about KAS & GREEN Contractors!</p>
-            <a href="kas_greenng@yahoo.com"></a>
+          <div>
+            <div class="about">
+              <p class=""> Our real estate seminars and Exposition i2021 is designed to equip our customers with <br> knowledge and information of what acquiring their dream home requires,prototypes and what it takes to be a realtor </p>
+            </div>
+            <div class="contact mt-5 mb-5 p-4">
+              <p class="small text-white">Please contact us through Email for further questions about KAS & GREEN Realtors!</p>
+              <a class="text-decoration-none text-white" href="#">kas_greenng@yahoo.com</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
     <!-- creative Logo section -->
     <div class="logo_container">
-      <div class="logo-header">
-        <h5>Our properties and designed by world class Engineers</h5>
+      <div class="logo-header mb-5">
+        <h5>Kas & Green Realtors Event Logo </h5>
       </div>
       <div>
-        <p class="logopara">Our properties are developed with the very best materials for the absolute luxury and comfort of of our customers</p>
+        <p class="logopara small">Our properties are developed with the very best materials for the absolute luxury and comfort of of our customers</p>
       </div>
-      <div>
+      <div class="bg-white text-center event-logo" >
         <a href="#"><img src="img/log.jpeg" alt="K&G Logo"></a>
       </div>
     </div>
   <!-- Real estate events -->
-  <div class="event_container">
-    <div>
-      <h3>Here are Kas & Green past real estate events</h3>
+  <!-- <section class="featured-speakers my-5">
+    <h3 class="text-black text-center font-weight-bold">See the past Web Design Event</h3>
+    <hr class="under-line">
+    <div class="container text-center">
+      <p class="mt-4 mb-5">Take a look at the last two Web Design Event which took place in Lagos and Alberta.</p>
+      <div class="past-event d-flex justify-content-center align-items-center p-5">
+        <div class="past past-one m-2 text-white font-weight-bolder">
+          <div class="about-past-title d-flex flex-column justify-content-center">
+            <h2>2016</h2>
+            <p>Web Design Event 2016 in Lagos, Nigeria.</p>
+          </div>
+        </div>
+        <div class="past past-two m-2 text-white font-weight-bolder">
+          <div class="about-past-title d-flex flex-column justify-content-center">
+            <h2>2019</h2>
+            <p>Web Design Event 2019 in Alberta, Canada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ................... -->
+  <section class="event-container my-5">
+    <h3 class="text-dark text-center font-weight-bold">See Kas & Green past real estate events</h3>
+    <hr class="under-line">
+    <div class="container text-center">
+      <p class="mt-4 mb-5">Take a look at the last two K & G real estate submits which took place in Lagos and Abuja.</p>
+      <div class="past-event d-flex justify-content-center align-items-center p-5">
+        <div class=" event first-event m-2 text-white font-weight-bolder">
+          <div class="about-events d-flex flex-column justify-content-center">
+            <h2>2018</h2>
+            <p>Real Estate Expo Lagos.</p>
+          </div>
+        </div>
+        <div class="event second-event m-2 text-white font-weight-bolder">
+          <div class="about-events d-flex flex-column justify-content-center">
+            <h2>2021</h2>
+            <p>Real Estate Expo Abuja</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- ................... -->
+  <!-- <div class="event_container">
+    <div class="text-center mt-5">
+      <h5>See Kas & Green past real estate events</h5>
       <p>Take a look at the last two K & G real estate submits which took place in Lagos and Abuja</p>
     </div>
     <div class="event">
       <a class="event1" href="#"><img src="img/2021_sales.jpeg" alt="Sales event"></a>
       <a class="events" href="#"><img src="img/real-estate2.jpeg" alt=""></a>
     </div>
-  </div>
+  </div> -->
   <!-- About Footer -->
-  <div class="footer_container">
-    <div>
-     <img src="img/log.jpeg" alt="">
+  <footer class="footer-cover">
+    <div class="container p-4">
+      <div class="main-footer d-flex">
+        <div class="footer-logo px-5">
+          <img src="img/log.jpeg" alt="K&G logo" class="img-fluid">
+        </div>
+        <div class="footer-item text-white">
+          <p class="font-weight-bold">2021 Real EstateExpo. Some Rights Reserved.</p>
+          <div class="sub-item">
+            <small class="d-block">This is a Capstone Project issued by <a class="text-white" href="https://www.microverse.org/" class="whole-under make-white">Microverse Inc.</a>, that marks the completion of HTML/CSS track of the main curriculum.</small>
+            <small class="d-block last-item d-sm-none">Appropriate credits are given to the author of the design, the publisher of the contents and platforms used. This can be found in <a href="https://github.com/Edungit/edunnaty_design_agency" class="whole-under">the github project page</a> of <a href="https://github.com/edungit" class="whole-under"> the developer</a></small>
+          </div>
+        </div>
+      </div>
     </div>
-    <div><p>2021 Kas & Green Realtors. Some Right Reserved</p></div>
-    <div><p>This is a Capstone Project from <a href="https://www.microverse.org/">Microverse.</a>, this marks the completion of HTML/CSS curriculum</p>
-      Credits to the author of this design, the publisher of the contents. 
-    </div>
-  </div>
-  </main>
+  </footer>
+  
 
 
 
