@@ -138,7 +138,7 @@ a {
 @media screen and (max-width:768px) {
   .all-event {
     flex-direction: column;
-    width: 100%;
+    /* min-width: 100%; */
   }
 
 .first-event {
@@ -148,6 +148,17 @@ a {
 }
 .foot-item2{
   display: none;
+}
+
+.about {
+  width: 100%;
+}
+
+.about-events{
+  width: 100%;
+}
+.partners-part {
+  display: inline-flex;
 }
 
 }
@@ -192,7 +203,7 @@ a {
 }
 
 .about-events {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   background-color: #ec5342a2;
 }
@@ -203,4 +214,8 @@ a {
 
 .footer-cover{
   box-shadow: inset 0 0 0 2000px var(--dak);
+}
+
+@media only screen and (max-width:1024){
+  
 }
